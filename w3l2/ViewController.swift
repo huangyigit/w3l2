@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     @IBAction func sliderAction(_ sender: UISlider) {
         speed = Double(sender.value)
-
+        print(sender.value)
     }
     
     }
